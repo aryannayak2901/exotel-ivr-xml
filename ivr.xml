@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <!-- Optional greeting -->
+  <Speak language="en-US" type="text">
+    Please wait while we connect you to our AI assistant.
+  </Speak>
+  
+  <!-- Stream audio to your Django bridging service -->
+  <Stream url="https://your-bridging-service-url/ws/bridge/?sessionId=YOUR_SESSION_ID" method="POST">
+    <!-- Optional query parameters can be appended here -->
+  </Stream>
+  
+  <!-- End the call -->
+  <Hangup/>
+</Response>

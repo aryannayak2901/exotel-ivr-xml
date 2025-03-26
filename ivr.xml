@@ -6,7 +6,7 @@
   </Speak>
   
   <!-- Stream audio to your Django bridging service -->
-  <Stream url="https://your-bridging-service-url/ws/bridge/?sessionId=YOUR_SESSION_ID" method="POST">
+  <Stream url="https://aceb-2405-201-2018-c076-fc77-a179-5035-15dd.ngrok-free.app/ws/bridge/?sessionId=YOUR_SESSION_ID" method="POST">
     <!-- Optional query parameters can be appended here -->
   </Stream>
   
